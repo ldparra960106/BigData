@@ -53,9 +53,3 @@ if uploaded_file:
 
         fig2 = px.scatter(df_filtered, x=x_var, y=y_var, color='eges', title="Graphique interactif filtré")
         st.plotly_chart(fig2)
-
-# Étape 11 - Commentaire avec le lien de l'app
-# Lien de l'application Streamlit : https://votre-nom-utilisateur.streamlit.app/ec-batiments
-
-# Étape 10 - Pour générer un PDF :
-# Ouvrez cette page dans votre navigateur, clic droit > Imprimer > Enregistrer en PDF
