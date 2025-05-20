@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # Étape 4 - Demander le nom de l'utilisateur et le saluer
 name = st.text_input("Quel est votre prénom ?")
 if name:
-    st.write(f"Bonjour, {name} ! 👋")
+    st.write(f"Bonjour, {name} !")
 
 # Étape 5 - Chargement des données
 st.title("Step 3 - Importation de la base E+C-")
